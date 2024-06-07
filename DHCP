@@ -1,3 +1,6 @@
+nano /etc/sysconfig/dhcpd
+  DHCPDARGS=ens19
+nano /etc/dhcp/dhcpd.conf # ?
   ddns-update-style none;
   subnet 192.168.100.0 netmask 255.255.255.192 {
   option routers 192.168.100.1;
