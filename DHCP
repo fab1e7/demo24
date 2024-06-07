@@ -9,6 +9,6 @@
   max-lease-time 43200;
 }
 host hq-srv.hq.work {
-hardware ethernet XX:XX:XX:XX:XX:XX;
-fixed-address 192.168.100.2;
+  hardware ethernet XX:XX:XX:XX:XX:XX;
+  fixed-address 192.168.100.2;
 }
