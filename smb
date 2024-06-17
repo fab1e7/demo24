@@ -1,0 +1,7 @@
+[admin_files]
+path = /srv/admin_files
+read only = no
+valid users = @admin_group
+#sudo smbpasswd -a <user>
+apt install smbclient
+#smbclient //name_server/name_share -U <user>
