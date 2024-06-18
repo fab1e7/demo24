@@ -7,3 +7,4 @@ mkdir /etc/sysconfig/iptables/
 iptables-save > /etc/sysconfig/iptables/rule.v4
 AllowUsers *@192.168.100.0/26 *@192.168.200.0/28
 *@10.1.1.0/30 *@10.2.2.0/30
+denyusers *@
