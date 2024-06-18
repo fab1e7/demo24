@@ -1,7 +1,8 @@
 auto tunnel1
 iface tunnel1 inet tunnel
 address 10.10.10.1
+netmask 255.255.255.252
 mode gre
 local x.x.x.x
-enpoint x.x.x.x
+endpoint x.x.x.x
 ttl 255
